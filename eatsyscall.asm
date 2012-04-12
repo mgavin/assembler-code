@@ -3,7 +3,7 @@
         ;;  Description : A simple assembly app for linux, using NASM
         ;;  demonstrating the use of Linux INT 80H syscalls to display text
         ;;  Compile with: nasm -f elf -g -F stabs eatsyscall.asm
-        ;;  ld -o eatsyscall eatsyscall.o
+        ;;  ld -o eatsyscall eatsyscall.o (optional -m elf_i386 on 64-bit machines)
 
         SECTION .data           ; Section containing initialized data
 
